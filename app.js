@@ -43,3 +43,4 @@ app.get(`${CONTEXT_PATH}/movie-list`, (req, res) => {
 app.listen(SERVER_PORT, () => {
     console.log(`Server started listening on PORT: ${SERVER_PORT}`);
 });
+ 
